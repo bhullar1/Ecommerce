@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.841 sec <<< FAILURE!
+testTestCase3(testCases.TestCase3)  Time elapsed: 2.141 sec  <<< FAILURE!
+java.lang.AssertionError: expected [* The requested quantity for "Sony Xperia" is not available] but found [Some of the products cannot be ordered in requested quantity.]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testCases.TestCase3.testTestCase3(TestCase3.java:46)
+
